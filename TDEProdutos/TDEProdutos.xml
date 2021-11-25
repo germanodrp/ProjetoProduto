@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TDEProdutos</name>
+    </assembly>
+    <members>
+        <member name="M:TDEProdutos.Controllers.CategoriaController.BuscarPorCategoria(System.String)">
+            <summary>
+             Consultar dados de uma categoria de um produto a partir do Id
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.CategoriaController.AdicionarCategoria(TDEProdutos.Models.Categoria)">
+            <summary>
+             Adicionar dados de um produto a partir do Id
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.CategoriaController.Atualizar(System.String,TDEProdutos.Models.Categoria)">
+            <summary>
+             Atualizar dados de uma categoria de um produto a partir do Id
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.CategoriaController.Remova(System.String)">
+            <summary>
+             Remover dados de uma categoria de um produto a partir do Id
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+             
+        </member>
+        <member name="M:TDEProdutos.Controllers.EstoqueController.DebitarEstoque(TDEProdutos.Models.ProdutoDebito)">
+            <summary>
+             Atualizar estoque de um produto a partir do Id
+             se a quantidade for maior ou igual a quantidade de estoque
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+             <returns>Objeto contendo os dados de um produto atualizado.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.ProdutosController.ola">
+            <summary>
+             Consultar dados de um produto a partir do Id
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.ProdutosController.Adicionar(TDEProdutos.Models.Produto)">
+            <summary>
+             Adicionar dados de um produto a partir do Id
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.ProdutosController.Atualizar(System.String,TDEProdutos.Models.Produto)">
+            <summary>
+             Atualizar dados de um produto a partir do Id
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.ProdutosController.Remova(System.String)">
+            <summary>
+             Remover dados de um produto a partir do Id
+             Requer uso de token.
+             </summary>
+             <param name="Id">Id Produto</param>
+        </member>
+        <member name="M:TDEProdutos.Controllers.UsuarioController.Authenticate(TDEProdutos.Models.Usuario)">
+            <summary>
+             Efetuar o loguin
+             Requer uso de token.
+             </summary>
+             <param UserName="UserName">loguin usuario</param>
+             /// <param Password ="Password">senha</param>
+        </member>
+    </members>
+</doc>
