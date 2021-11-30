@@ -17,6 +17,7 @@ namespace TDEProdutos.context
         public IMongoCollection<Produto> _produtos;
         public IMongoCollection<Categoria> _categoria;
         public IMongoCollection<Usuario> _usuarios;
+        public IMongoCollection<Venda> _VendaProduto;
 
 
         //public MongoCollection Pessoas { get; set; }
@@ -28,6 +29,8 @@ namespace TDEProdutos.context
             _produtos = server.GetCollection<Produto>("Produtos");
             _categoria = server.GetCollection<Categoria>("Categoria");
             _usuarios = server.GetCollection<Usuario>("Usuario");
+            _VendaProduto = server.GetCollection<Venda>("Venda");
+
 
         }
     }
