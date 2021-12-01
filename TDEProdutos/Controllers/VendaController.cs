@@ -23,7 +23,7 @@ namespace TDEProdutos.Controllers
         }
 
 
-        [Authorize]
+      //  [Authorize]
         [HttpPost("RegistrarVenda")]
         public ActionResult RegistrarVenda(Venda venda)
         {

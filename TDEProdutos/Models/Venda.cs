@@ -13,13 +13,13 @@ namespace TDEProdutos.Models
 
         public string id { get; set; }
 
-        public int DataVenda{ get; set; }
+        public DateTime DataVenda{ get; set; }
 
          public string CpfVendedor{ get; set; }
 
         public string CpfCliente { get; set; }
 
-        public string NomeClient { get; set; }
+        public string NomeCliente { get; set; }
 
         public int ValorTotal { get; set; }
 

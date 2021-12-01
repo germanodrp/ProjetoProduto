@@ -26,7 +26,7 @@ namespace TDEProdutos.Validations
             RuleFor(Venda => Venda.ValorTotal)
                 .GreaterThan(0).WithMessage("preço deve ser maior que zero");
 
-            RuleFor(Venda => Venda.NomeClient)
+            RuleFor(Venda => Venda.NomeCliente)
                 .MinimumLength(3).WithMessage("minimo 3 caracteres")
                  .Must(SomenteLetras).WithMessage("Somente Letras")
                 .MaximumLength(500).WithMessage("maximo 500 caracteres");

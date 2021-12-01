@@ -10,15 +10,16 @@ namespace TDEProdutos.Models
     public class VendasItens
     {
         [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get;  set; }
 
-        public string CodigoProduto;
+        public string CodigoProduto { get; set; }
 
-        public string NomeProduto;
+        public string NomeProduto { get; set; }
 
-        public int valorUnitario;
+        public decimal valorUnitario { get; set; }
 
-        public int qtde;
+        public int qtde { get; set; }
 
-        public decimal ValorTotal;
+        public decimal ValorTotal { get; set; }
     }
 }
